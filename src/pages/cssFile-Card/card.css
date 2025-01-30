@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600;700&display=swap');
+
+    .body {
+      font-family: 'Crimson Text', serif;
+      font-weight: 600;
+    }
+
+    .dashboard-cards {
+        display: flex; 
+        flex-direction: row;
+        gap: 20px;   
+        position: absolute;
+        top: 0; 
+        left: 33%; 
+        transform: translate(-50%, -60%);
+        margin-top: 10%; 
+      }
+
+    .dashboard-card {
+        background: #000000;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        transition: transform 0.3s, box-shadow 0.3s;
+        text-align: center;  
+        cursor: default;
+    } 
+
+    .dashboard-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .card-header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+    } 
+
+    .card-icon {
+        font-size: 24px;
+        color: #10e279;
+        margin-right: 10px;
+      }
+      
+      .card-title {
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0; 
+        color: #ffffff;
+      }
+      
+      .card-value {
+        font-size: 36px;
+        font-weight: bold;
+        color: #ffffff;
+        margin: 10px 0;
+      }
+      
+      .card-description {
+        font-size: 14px;
+        color: #ffffff;
+      }

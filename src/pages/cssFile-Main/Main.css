@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600;700&display=swap');
+
+
+    .content-container {  
+        padding: 20%;
+        /* margin-left: 250px; */
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        min-height: 100vh; 
+        width: 100%;
+        display: flex; 
+        flex-direction: column;
+        gap: 20px; 
+        top: 60px; 
+        left: 280px;
+        position: fixed;
+        background-color: #ffffff;
+    } 
+    
+    .dashboard-title {
+        padding: 20px; 
+        /* background: #fdfdfd;  */
+        width: max-content; 
+        position: absolute; 
+        top: 0; 
+        left: 33%;  
+        transform: translate(-50%); 
+        cursor: default;
+    } 
+    
+    .dashboard-title h2 {
+        font-family: "Crimson Text", serif; 
+        font-size: 24px; 
+        font-weight: 700; 
+        color: #000000; 
+    }

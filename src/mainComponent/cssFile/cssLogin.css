@@ -1,0 +1,149 @@
+/* General Styles */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600;700&display=swap');
+
+
+body {
+    margin: 0;
+    font-family: 'Crimson Text', serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Login Page Container */
+  .login-page { 
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 90%;
+    max-width: 1200px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+  } 
+
+  .logo-medpoint {
+    margin-top: -20px;
+    margin-left: -30px;
+    /* margin-top: -20px; 
+    margin-left: -10px; */
+    width: 20%;
+    height: fit-content;
+  }
+  
+  
+  /* Login Form Container */
+  .login-container {
+    padding: 40px; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+  } 
+  .login-title {
+    font-size: 24px;
+    font-weight: bold; 
+    padding: 30px;
+    color: #333;
+  }
+  
+  .login-subtitle {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .login-error {
+    color: #ff4d4f;
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  
+  .login-button {
+    background-color: #000000;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .login-button:hover {
+    background-color: #10e279;
+    transition: ease-in-out 0.3s;;
+  }
+
+/* Side Login */ 
+  .side-login {
+    margin: 10px; 
+    border-radius: 0 8px 8px 0;
+    flex: 1;
+    background: linear-gradient(50deg,  #10e279 -5%, #000000 85%);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px; 
+  } 
+  .side-login:hover {
+    background: linear-gradient(50deg, #000000 -5%, #10e279 85%);
+  }
+
+  
+  /* TextInput Component */
+  .text-input {
+    margin-bottom: 20px;
+  }
+  
+  .text-input-label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .text-input-wrapper {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff;
+  }
+  
+  .text-input-icon { 
+    display: flex;
+    font-size: 10px;
+    margin-right: 10px;
+    color: #000000; 
+  }
+  
+  .text-input-field {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .text-input-field::placeholder { 
+    color: #aaa;
+  } 
+  
+  .text-input-error {
+    border-color: #ff4d4f;
+  }
+  
+  .text-input-error-message {
+    font-size: 12px;
+    color: #ff4d4f;
+    margin-top: 5px;
+  }
+  

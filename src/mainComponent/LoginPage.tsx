@@ -1,5 +1,5 @@
 import React, { ReactNode, useState } from 'react';
-import { supabase } from '../connection /Supabase.ts';
+import { supabase } from '../connection /Supabase';
 import '../mainComponent/cssFile/cssLogin.css'; 
 import { FaEnvelope, FaLock } from 'react-icons/fa'
 import { useNavigate } from 'react-router-dom';

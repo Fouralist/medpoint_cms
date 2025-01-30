@@ -1,15 +1,15 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";  
-import { UserProvider } from "./data/userContext.tsx"; 
-import { DoctorProvider } from "./data/doctorContext.tsx"; 
-import { PatientProvider } from "./data/patientContext.tsx"; 
-import { OccupationProvider } from "./data/occupationContext.tsx";
-import LoginPage from './mainComponent/LoginPage.tsx';  
-import DashboardPage from "./mainComponent/DashboardPage.tsx";
-import Dashboard from "./pages/dashboard.tsx"; 
-import DataDoctor from "./pages/dataMasterDoctor.tsx";    
-import DataPatient from "./pages/dataMasterPatient.tsx";
-import DataOccupation from "./pages/dataMasterOccupation.tsx";
+import { UserProvider } from "./data/userContext"; 
+import { DoctorProvider } from "./data/doctorContext"; 
+import { PatientProvider } from "./data/patientContext"; 
+import { OccupationProvider } from "./data/occupationContext";
+import LoginPage from './mainComponent/LoginPage';  
+import DashboardPage from "./mainComponent/DashboardPage";
+import Dashboard from "./pages/dashboard"; 
+import DataDoctor from "./pages/dataMasterDoctor";    
+import DataPatient from "./pages/dataMasterPatient";
+import DataOccupation from "./pages/dataMasterOccupation";
 
 const App: React.FC = () => {
   return ( 

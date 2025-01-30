@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import { supabase } from '../connection /Supabase.ts'; 
+import { supabase } from '../connection /Supabase'; 
 import '../mainComponent/cssFile/cssDashboard.css';  
 import { Outlet } from 'react-router-dom';
-import DashboardHeader from './DashboardComponent/DashboardHeader.tsx';
-import DashboardSidebar from './DashboardComponent/DashboardSidebar.tsx'; 
+import DashboardHeader from './DashboardComponent/DashboardHeader';
+import DashboardSidebar from './DashboardComponent/DashboardSidebar'; 
 
 const DashboardPage: React.FC = () => {
     const [user, setUser] = useState<any>(null); 

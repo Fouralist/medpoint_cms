@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
-import { supabase } from '../connection /Supabase.ts';
+import { supabase } from '../connection /Supabase';
 
 
 interface UserContextType {

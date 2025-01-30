@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';   
 import './cssFile-Main/Main.css';  
 import './cssFile-Table/table.css'; 
-import { useData } from '../data/occupationContext.tsx';
-import { supabase } from '../connection /Supabase.ts'; 
+import { useData } from '../data/occupationContext';
+import { supabase } from '../connection /Supabase'; 
 import { FaRegEdit } from "react-icons/fa"; 
 import { MdDelete } from "react-icons/md";
 

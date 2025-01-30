@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import Card from "./dashboardCard/card.tsx"; 
-import { supabase } from "../connection /Supabase.ts";
+import Card from "./dashboardCard/card"; 
+import { supabase } from "../connection /Supabase";
 import "./cssFile-Main/Main.css"; 
 import "./cssFile-Card/card.css"; 
 import { FaUserMd, FaUserInjured, FaBriefcaseMedical, FaChartLine } from 'react-icons/fa';

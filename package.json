@@ -15,10 +15,10 @@
     "react-dom": "^19.0.0",
     "react-icons": "^5.4.0",
     "react-router-dom": "^7.1.4",
-    "react-scripts": "^5.0.1",
+    "react-scripts": "^3.4.4",
     "rimraf": "^6.0.1",
     "tar": "^7.4.3",
-    "typescript": "^5.7.3",
+    "typescript": "^3.9.10",
     "uid-number": "^0.0.6",
     "web-vitals": "^4.2.4"
   },

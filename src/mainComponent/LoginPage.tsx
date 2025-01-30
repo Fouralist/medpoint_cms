@@ -87,7 +87,7 @@ const LoginPage: React.FC = () => {
         alt=""
         className="logo-medpoint" />
 
-        <h1 className="login-title">Welcome to Medpoint</h1> 
+        <h1 className="login-title">Welcomes to Medpoint</h1> 
         
         <p className="login-subtitle">Enter with your email and password</p> 
         

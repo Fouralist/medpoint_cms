@@ -1,13 +1,7 @@
-const { overrideDevServer } = require('customize-cra');
+const { override, addBabelPlugins } = require('customize-cra');
 
-const devServerConfig = () => (config) => {
-  config.setupMiddlewares = (middlewares, devServer) => {
-    // Your custom middleware setup
-    return middlewares;
-  };
-  return config;
-};
-
-module.exports = {
-  devServer: overrideDevServer(devServerConfig()),
-};
+module.exports = override(
+  ...addBabelPlugins(
+    // Add your Babel plugins here
+  )
+);
